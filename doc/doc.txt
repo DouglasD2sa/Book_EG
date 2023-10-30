@@ -1,0 +1,6 @@
+Inicio: 29/10/2023
+
+Objetivo: software que atenderá a necessidade de registrar ocorrências que devam
+ocorrer durante o uso do Laboratório de Informática da E.M.E.F Nossa Senhora de Guadalupe. 
+
+Será utilizado: HTML, CSS, JavaScript, PHP e MySql
