@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -21,14 +22,14 @@
 
     <main id="container" >
         <h2>Registro</h2>
-        <form action="endereço_php" method="post">
+        <form action="gravacao.php" method="post">
             <label for="fiscal">Nome:</label>
             <input class="form-input" type="text" name="fiscal" style="width: 200px;"><br>
             Data: <input class="form-input"  type="date" name="data"> <br>
             turno: Manhã <input class="form-input" type="radio" name="turno" value="manha"> Tarde <input class="form-input" type="radio" name="turno" value="tarde"><br>
-            Quantidade de Gabinetes: <input class="form-input" type="number" min="0" max="20" name="quant1gab" value="gab"><br>
-            Quantidade de monitores: <input class="form-input" type="number" min="0" max="20" name="quant2lcd"><br>
-            <textarea class="form-input" rows="3" cols="27" placeholder="Observações"></textarea>  <br> 
+            Quantidade de Gabinetes: <input class="form-input" type="number" min="0" max="20" name="gabinetes" value="gab"><br>
+            Quantidade de monitores: <input class="form-input" type="number" min="0" max="20" name="telasLCD"><br>
+            <textarea class="form-input" rows="3" cols="27" placeholder="Observações" name="observacoes"></textarea>  <br> 
             <input class="form-input" type="submit" value="enviar">
         </form>
         <br>
