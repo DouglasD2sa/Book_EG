@@ -1,20 +1,16 @@
 <?php
 
-$host = 'localhost'; 
-$usuario = 'root';
-$senha = ''; 
-$banco_de_dados = 'registroslab'; 
+$servername = "localhost"; 
+$database = "registroslab"; 
+$username = "root";
+$password = ""; 
 
-// Conectar ao banco de dados
-$conexao = new mysqli($host, $usuario, $senha, $banco_de_dados);
+// Conexão com o banco de dados
+$conn = new mysqli($servername, $username, $password, $database);
 
 // Verificar a conexão
-if ($conexao->connect_error) {
-    die("erro:: " . $conexao->connect_error);
+if ($conn->connect_error) {
+    die("Erro de conexão: " . $conn->connect_error);
 }
-echo "Conexão bem-sucedida";
-
-// Fechar a conexão
-$conexao->close();
 
 ?>
