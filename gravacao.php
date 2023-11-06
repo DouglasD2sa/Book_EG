@@ -12,7 +12,7 @@
     </header>
     <nav>
         <span>Livro de Registro</span>   
-        <button><a class="nav-btn" >Consultar Registro</a></button>
+        <button><a class="nav-btn" href="consulta.php">Consultar Registro</a></button>
         <span>Laboratório</span>   
         <button><a class="nav-btn" href="index.php">Realizar Registro</a></button>
         <span>Escola Guadalupe</span>     
@@ -37,7 +37,7 @@
                     VALUES ('$fiscal', '$data', '$turno', '$gabinetes', '$telasLCD', '$observacoes')";
 
             if ($conn->query($sql) === TRUE) {
-                echo "<div id='sucess'>Registro inserido com sucesso.</div>";
+                echo "<span><div id='sucess'>Registro inserido com sucesso.</div></span>";
             } else {
                 echo "<div id='error'>Erro: " . $sql . "<br>" . $conn->error."</div>";
             }

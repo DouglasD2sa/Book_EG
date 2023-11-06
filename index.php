@@ -14,7 +14,7 @@
     
     <nav>
         <span>Livro de Registro</span>   
-        <button><a class="nav-btn" >Consultar Registro</a></button>
+        <button><a class="nav-btn" href="consulta.php">Consultar Registro</a></button>
         <span>Laboratório</span>   
         <button><a class="nav-btn" href="index.php">Realizar Registro</a></button>
         <span>Escola Guadalupe</span>     

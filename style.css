@@ -61,19 +61,26 @@ footer {
 }
 
 
-/*gravacao.php*/
+/* gravacao.php*/
 #sucess {
+    
     background: greenyellow;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
-    border: 3px;
-    border: #0c0c0c;
+    width: 500px;
 }
 
 #error {
     background: red;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
-    border: 3px;
-    border: #0c0c0c;
+}
+
+/* consulta.php*/
+th, td {
+    border-bottom: 1px solid #ddd;
+  }
+
+tr:hover {
+    background-color: rgb(217, 255, 80);
 }
