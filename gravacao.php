@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resultado do Registro</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -37,9 +37,9 @@
                     VALUES ('$fiscal', '$data', '$turno', '$gabinetes', '$telasLCD', '$observacoes')";
 
             if ($conn->query($sql) === TRUE) {
-                echo "<span><div id='sucess'>Registro inserido com sucesso.</div></span>";
+                echo "<h4 id='sucess'>Registro inserido com sucesso.</h4></span>";
             } else {
-                echo "<div id='error'>Erro: " . $sql . "<br>" . $conn->error."</div>";
+                echo "<h4 id='error'>Erro: " . $sql . "<br>" . $conn->error."</h4>";
             }
         }
 
